@@ -1,5 +1,5 @@
 {
-  "name": "strapi-provider-upload-azure-storage",
+  "name": "@physer/strapi-provider-upload-azure-storage",
   "version": "3.4.1",
   "license": "MIT",
   "main": "dist/index.js",
@@ -20,7 +20,7 @@
   "strapi": {
     "isProvider": true
   },
-  "repository": "https://github.com/jakeFeldman/strapi-provider-upload-azure-storage",
+  "repository": "https://github.com/Physer/strapi-provider-upload-azure-storage",
   "homepage": "http://strapi.io",
   "keywords": [
     "upload",
