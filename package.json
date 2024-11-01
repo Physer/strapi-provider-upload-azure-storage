@@ -7,7 +7,7 @@
     "build": "tsc -p tsconfig.json",
     "lint": "eslint . --ext .js,.ts",
     "lint:fix": "eslint . --ext .js,.ts --fix",
-    "prebuild": "rm -rf dist",
+    "prebuild": "shx rm -rf dist",
     "prepublishOnly": "yarn build"
   },
   "directories": {
@@ -38,6 +38,8 @@
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "prettier": "^2.8.4",
+    "shx": "^0.3.4",
     "typescript": "^4.9.5"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
